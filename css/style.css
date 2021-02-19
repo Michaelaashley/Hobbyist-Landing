@@ -3,6 +3,7 @@
 body {
     display: block;
     overflow-x: hidden;
+    overflow-y: none;
 }
 
 nav {
@@ -37,6 +38,13 @@ line-height: 28px;
     color: rgba(255, 99, 155, 0.67);
 }
 
+.photo-bg {
+    position: absolute;
+    margin-left: 43%;
+    margin-top: -100px;
+}
+
+
 
 /* Section */
 
@@ -48,9 +56,9 @@ section {
 p {
     display: flex;
     float: left;
-    width: 517px;
-    padding-left: 60px;
-    margin-top: 10%;
+    width: 500px;
+    margin-left: 10%;
+   padding-top: 220px;
     font-family: "Mulish";
 font-style: normal;
 font-weight: normal;
@@ -60,18 +68,21 @@ color: #000000;
 }
 
 section .img-fluid {
+    position: relative;
     float: right;
-    margin-top: 30px;
-    padding-right: 60px;
+    margin-top: -25%;
+    padding-right: 100px;
+    margin-right: 3%;
+    width: 800px;
+height: 600px;
 }
 
 .btn {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20%;
-    margin-bottom: 10%;
-    margin-left: 10%;
+    margin-top: 340px;
+    margin-left: 15%;
     width: 251px;
 height: 64px;
 background: #201C3A;
@@ -90,4 +101,8 @@ color: white;
     background-color:white;
     color: #201C3A;
     border: 2px solid #201C3A;
+}
+
+.bg-img {
+    margin-top: -295.5px;
 }
